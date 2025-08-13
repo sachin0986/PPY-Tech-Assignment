@@ -1,12 +1,97 @@
-# React + Vite
+# PPY Tech Assignment - KYC Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React dashboard, featuring dark mode, smooth charts (Nivo), and modular components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+[View Live Dashboard]()
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+
+```
+assignment/
+├── public/
+│   └── index.html
+├── src/
+│   ├── Components/
+│   │   ├── Sidebar.jsx
+│   │   ├── Header.jsx
+│   │   ├── Filters.jsx
+│   │   ├── KycSummaryCard.jsx
+│   │   ├── CategoriesCard.jsx
+│   │   ├── BarChartCard.jsx
+│   │   ├── StatusCardsGrid.jsx
+│   │   ├── SolicitedPieCard.jsx
+│   │   ├── PanStatsCards.jsx
+│   │   ├── SkeletonCard.jsx
+│   │   ├── SkeletonChart.jsx
+│   │   └── Dashboard.jsx
+│   ├── utils/
+│   │   └── mockData.js
+│   ├── App.jsx
+│   └── index.js
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/axis-mf-dashboard.git
+   cd axis-mf-dashboard
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🌗 Features
+
+- Responsive design for all devices
+- Dark mode toggle
+- Modular component structure
+- Smooth charts using Nivo
+- Skeleton loaders for better UX
+
+---
+
+## 🖼️ Screenshot
+
+![Dashboard Screenshot](https://your-screenshot-link.com/dashboard.png)
+
+---
+
+## 📦 Dependencies
+
+- React
+- Tailwind CSS
+- Nivo (for charts)
+- Lucide React (icons)
+- Vite
+
+---
+
+
+
+**Replace `your-live-demo-link.com` and `your-screenshot-link.com` with actual links.**
