@@ -6,7 +6,7 @@ A modern, responsive React dashboard, featuring dark mode, smooth charts (Nivo),
 
 ## 🚀 Live Demo
 
-[View Live Dashboard]()
+[View Live Dashboard](https://ppy-tech-kyc-dashboard.netlify.app/)
 
 ---
 
@@ -45,8 +45,8 @@ assignment/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/axis-mf-dashboard.git
-   cd axis-mf-dashboard
+   git clone https://github.com/sachin0986/PPY-Tech-Assignment
+   cd PPY-Tech-Assignment
    ```
 
 2. **Install dependencies**
@@ -56,7 +56,7 @@ assignment/
 
 3. **Start the development server**
    ```bash
-   npm start
+   npm run dev
    ```
 
 4. **Open in browser**
@@ -78,7 +78,7 @@ assignment/
 
 ## 🖼️ Screenshot
 
-![Dashboard Screenshot](https://your-screenshot-link.com/dashboard.png)
+![Dashboard Screenshot](/public/kyc%20ss.png)
 
 ---
 
@@ -94,4 +94,4 @@ assignment/
 
 
 
-**Replace `your-live-demo-link.com` and `your-screenshot-link.com` with actual links.**
+`https://ppy-tech-kyc-dashboard.netlify.app/`
