@@ -126,7 +126,7 @@ const App = () => {
     <div className={`min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300`}>
       <div className="flex">
         {/* Sidebar */}
-        <div className={`fixed lg:static z-40 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 w-64 bg-white dark:bg-gray-800 shadow-sm transition-transform duration-300 min-h-screen border-r border-gray-200 dark:border-gray-700`}>
+        <div className={`fixed lg:static z-30 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 w-64 bg-white dark:bg-gray-800 shadow-sm transition-transform duration-300 min-h-screen border-r border-gray-200 dark:border-gray-700`}>
           <div className="p-4 sm:p-6">
             {/* Logo and Close Button */}
             <div className="flex items-center justify-between mb-8">
@@ -166,14 +166,6 @@ const App = () => {
             </nav>
           </div>
         </div>
-
-        {/* Overlay for mobile sidebar */}
-        {sidebarOpen && (
-          <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
-            onClick={() => setSidebarOpen(false)}
-          />
-        )}
 
         {/* Main Content */}
         <div className="flex-1 lg:ml-0">
